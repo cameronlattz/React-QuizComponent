@@ -24,6 +24,10 @@ class Quiz extends Component {
         )
     }
 
+    handleResetclick() {
+        this.setState({quiz_position: 1});
+    }
+
     showNextQuestion() {
         this.setState((state) => {
             return {
