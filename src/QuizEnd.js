@@ -8,7 +8,6 @@ class QuizEnd extends Component {
                 <a
                     href=''
                     onClick={this.handleResetClick.bind(this)}
-                    resetClickHandler={this.handleResetClick.bind(this)}
                 >Reset Quiz</a>
             </div>
         )
